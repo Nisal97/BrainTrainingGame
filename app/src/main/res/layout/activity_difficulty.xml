@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/Braingametext"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:gravity="center"
+        android:text="@string/difficulty"
+        android:padding="@dimen/welcome"
+        android:textSize="28dp"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        android:layout_margin="@dimen/space1"/>
+
+    <Button
+        android:id="@+id/noviceBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mainbuttonsfont"
+        android:text="Novice"
+        android:background="@drawable/mainbuttons"/>
+
+    <Button
+        android:id="@+id/easyBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mainbuttonsfont"
+        android:text="Easy"
+        android:background="@drawable/mainbuttons"/>
+
+    <Button
+        android:id="@+id/mediumBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mainbuttonsfont"
+        android:text="Medium"
+        android:background="@drawable/mainbuttons"/>
+
+    <Button
+        android:id="@+id/guruBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mainbuttonsfont"
+        android:text="Guru"
+        android:background="@drawable/mainbuttons"/>
+
+</LinearLayout>

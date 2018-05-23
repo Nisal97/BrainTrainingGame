@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.braintraininggame.About">
+
+    <TextView
+        android:id="@+id/abouthead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instructions"
+        android:gravity="center"
+        android:textSize="28dp" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="*The user is presented with four levels of game difficulty, Novice, Easy, Medium, Guru.\n\n *The Novice level corresponds to an arithmetic expression involving exactly 2 integers.\n\n *Easy level corresponds to an arithmetic expression with maximum 3 terms. \n
+\n*The Medium level corresponds to an arithmetic expression with maximum 4 terms. \n\n
+*The Guru level corresponds to an arithmetic expression with maximum 6 terms and minimum 4 terms. \n\n*User must enter the answer before the time runs out
+\n\n*Hint button will show user 4 hints, if user fails to give answer it will redirect to next question"/>
+
+
+</ScrollView>
+
+    <Button
+        android:id="@+id/about_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="close"/>
+
+</LinearLayout>

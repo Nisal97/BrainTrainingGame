@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/mainbackgroundnew1">
+
+    <TextView
+        android:id="@+id/Braingametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space1"
+        android:fontFamily="@font/mainname"
+        android:gravity="center"
+        android:padding="@dimen/welcome"
+        android:text="@string/mainname"
+        android:textColor="@color/mainnamecolor"
+        android:textSize="64dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/newgame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="@string/newgamebutton"
+        android:fontFamily="@font/mainbuttonsfont"
+        android:background="@drawable/mainbuttons"/>
+
+    <Button
+        android:id="@+id/cont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/continuebutton"
+        android:fontFamily="@font/mainbuttonsfont"
+        android:background="@drawable/mainbuttons"/>
+
+    <Button
+        android:id="@+id/aboutbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/aboutbutton"
+        android:fontFamily="@font/mainbuttonsfont"
+        android:background="@drawable/mainbuttons"/>
+
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/exit"
+        android:fontFamily="@font/mainbuttonsfont"
+        android:background="@drawable/mainbuttons"/>
+
+</LinearLayout>
